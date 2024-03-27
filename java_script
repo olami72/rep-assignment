@@ -1,0 +1,41 @@
+//1
+ let num = 20
+if(num > 0){
+console.log("positive")
+}
+else if(num < 0){
+console.log("negative")
+}
+else{
+ console.log("zero")
+ }
+
+2
+ let num = 10
+if(num % 2 === 0){
+console.log("even")
+}else{
+console.log("odd")
+}
+
+ 3
+ let age = 15
+ if(age % 5 === 0){
+   console.log("multiple of 5")
+ }
+ else if(age % 3 === 0){
+   console.log("multiple of 3")
+ }
+else{
+    console.log("Neither")
+}
+//4
+let year = 2024
+
+if (year >= 1901 && year <= 2000) {
+    console.log("20th century")
+} else if (year >= 2001 && year <= 2100) {
+    console.log("21st century")
+} else if (year >= 2101 && year <= 2200) {
+    console.log("22nd century")
+} 
